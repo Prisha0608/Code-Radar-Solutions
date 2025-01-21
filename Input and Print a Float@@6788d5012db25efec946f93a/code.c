@@ -3,7 +3,7 @@
 void fun(){
     float a;
     scanf("%f",&a);
-    printf("0.2%f",a);
+    printf("2%f",a);
 }
 int main(){
     fun();
