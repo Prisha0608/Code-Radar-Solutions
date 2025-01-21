@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 void fun(){
-    int a,b;
+    int a,b,sum;
     scanf("%d %d",&a,&b);
-    int sum=a+b;
+    sum=a+b;
     printf("Sum: %d",sum);
 }
 int main(){
