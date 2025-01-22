@@ -3,8 +3,8 @@
 void fun(){
     int a,b;
     scanf("%d %d",&a,&b);
-    a<<b;
-    printf("%u",a);
+    
+    printf("%u",a<<b);
 
 }
 int main(){
