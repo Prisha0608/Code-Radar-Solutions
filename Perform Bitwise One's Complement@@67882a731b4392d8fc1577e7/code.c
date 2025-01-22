@@ -3,7 +3,7 @@
 void fun(){
     int a;
     scanf("%d",&a);
-    printf("%u",a~1);
+    printf("%u",~a);
 }
 int main(){
     fun();
