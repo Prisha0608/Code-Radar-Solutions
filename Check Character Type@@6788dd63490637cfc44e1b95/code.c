@@ -10,7 +10,7 @@ void fun(){
             printf("Consonant");
         }
     }else{
-        if(-100<=a && a<=100){
+        if(a>='0' && a<='9'){
             printf("Digit");
         }else{
             printf("Special Character");
