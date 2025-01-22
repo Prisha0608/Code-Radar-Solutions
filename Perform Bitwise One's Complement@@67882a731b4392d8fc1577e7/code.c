@@ -4,7 +4,7 @@ void fun(){
     int a,b;
     scanf("%d",&a);
     b=~a;
-    printf("%u",b);
+    printf("%d",b);
 }
 int main(){
     fun();
