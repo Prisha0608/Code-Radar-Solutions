@@ -2,9 +2,10 @@
 
 void fun(){
     int a,b,c;
-    float av;
+    float av,sum;
     scanf("%d %d %d",&a,&b,&c);
-    av=(a+b+c)/3;
+    sum=a+b+c;
+    av=sum/3;
     printf("Average: %.2f",av);
 }
 int main(){
