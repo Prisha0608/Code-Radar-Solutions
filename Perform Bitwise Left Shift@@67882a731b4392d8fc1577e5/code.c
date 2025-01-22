@@ -4,7 +4,7 @@ void fun(){
     int a,b;
     scanf("%d %d",&a,&b);
     a<<b;
-    printf("%d",a);
+    printf("%u",a);
 
 }
 int main(){
