@@ -9,7 +9,7 @@ int main(){
     }else if(a=='G'){
         printf("Go");
     }else if(a=='Y'){
-        printf("Slow down");
+        printf("Slow Down");
     }else{
         printf("Invalid input");
     }return 0;
