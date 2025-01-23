@@ -6,20 +6,20 @@ int main(){
     scanf("%f %f",&a,&b);
     scanf("%c",&c);
     if(c=='+'){
-        p=a+b;
-        int p;
+        p=int(a+b);
+        
         printf("%d",p);
     }else if(c=='-'){
-        p=a-b;
-        p=int p;
+        p=int(a-b);
+        
         printf("%d",p);
     }else if(c=='*'){
-        p=a*b;
-        p=int p;
+        p=int(a*b);
+        
         printf("%d",p);
     }else if(c=='/'){
-        p=a/b;
-        p=int p;
+        p=int(a/b);
+        
         printf("%d",p);
     }else{
         printf("error");
