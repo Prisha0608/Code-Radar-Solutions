@@ -7,7 +7,7 @@ int main(){
     scanf("%c",&c);
     if(c=='+'){
         p=a+b;
-        p=int p;
+        int p;
         printf("%d",p);
     }else if(c=='-'){
         p=a-b;
