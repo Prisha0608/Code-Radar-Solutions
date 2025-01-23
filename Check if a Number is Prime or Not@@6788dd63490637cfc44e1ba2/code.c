@@ -9,5 +9,5 @@ int main(){
             return;
         }
     }printf("Prime");
-    return 0;
+    
 }
