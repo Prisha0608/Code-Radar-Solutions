@@ -8,7 +8,7 @@ int main(){
         s[i]=b;
     }
     for(int j=0;j<n;j++){
-        for(int k=n-1;k>0;k--){
+        for(int k=j;k<n;k++){
             if(s[j]<=s[k]){
                printf("Not Sorted");
                return;
