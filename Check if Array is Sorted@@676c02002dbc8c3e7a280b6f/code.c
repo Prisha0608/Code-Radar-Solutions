@@ -11,7 +11,7 @@ int main(){
         for(int k=j;k<n;k++){
             if(s[j]<=s[k]){
                printf("Not Sorted");
-               return;
+               return 0;
             }
         }
     }
