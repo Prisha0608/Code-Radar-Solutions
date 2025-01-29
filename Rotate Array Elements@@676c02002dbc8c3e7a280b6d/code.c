@@ -9,10 +9,10 @@ int main(){
     }
     scanf("%d",&p);
     for(int j=n-p;j<n;j++){
-        printf("%d\n",j);
+        printf("%d\n",s[j]);
     }
     for(int k=0;k<n-p;k++){
-        printf("%d\n",k);
+        printf("%d\n",s[k]);
     }
     return 0;
     
