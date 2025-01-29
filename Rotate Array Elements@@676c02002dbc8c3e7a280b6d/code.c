@@ -2,9 +2,9 @@
 
 int main(){
     int n,s[a],b,p;
-    scanf("%d",&n);
+    scanf("%d\n",&n);
     for(int i=0;i<n;i++){
-        scanf("%d",&b);
+        scanf("%d\n",&b);
         s[i]=b;
     }
     scanf("%d",&p);
