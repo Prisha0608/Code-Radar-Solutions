@@ -9,11 +9,9 @@ int main(){
         s[i]=b;
     }
     for(int j=0;j<n;j++){
-        for(int k=j+1;k<n;k++){
-            if(s[j]<=s[k]){
-               printf("Not Sorted");
-               return 0;
-            }
+        if(s[j+1]<s[j]){
+            printf("Not Sorted");
+            return 0;
         }
     }
     printf("Sorted");
