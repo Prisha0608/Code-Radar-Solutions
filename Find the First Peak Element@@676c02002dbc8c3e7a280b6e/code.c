@@ -8,7 +8,7 @@ int main(){
         scanf("%d",&s[i]);
     }
     for(int j=0;j<n;j++){
-        if(s[j+1]>s[j]){
+        if(s[j+1]>s[j] && s[j+1]>s[j+2]){
             printf("%d",s[j+1]);
             return 0;
         }
