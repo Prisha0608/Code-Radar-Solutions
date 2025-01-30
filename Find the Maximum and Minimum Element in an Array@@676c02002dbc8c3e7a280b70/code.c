@@ -12,16 +12,16 @@ int main(){
     for(int i=0;i<n;i++){
         if(s[i]<min){
             min=s[i];
-            printf("%d ",min);
+            
         }
     }
     for(int j=0;j<n;j++){
         if(s[j]>max){
            max=s[j]; 
-           printf("%d",max);
+           
         }
     }
-    
+    printf("%d %d",min,max);
     return 0;
 
 }
