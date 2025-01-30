@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 int main(){
-    int n,a,s[a],b;
+    int n,b;
     scanf("%d\n",&n);
+    int s[n];
     for(int i=0;i<n;i++){
         scanf("%d",&b);
         s[i]=b;
