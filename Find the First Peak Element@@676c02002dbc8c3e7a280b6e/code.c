@@ -2,10 +2,10 @@
 
 int main(){
     int n;
-    scanf("%d",&n);
+    scanf("%d\n",&n);
     int s[n];
     for(int i=0;i<n;i++){
-        scanf("%d",&s[i]);
+        scanf("%d\n",&s[i]);
     }
     for(int j=0;j<n-1;j++){
         if(s[j-1]<s[j] && s[j+1]<s[j]){
