@@ -2,10 +2,10 @@
 
 int main(){
     int n,min,max;
-    scanf("%d",&n);
+    scanf("%d\n",&n);
     int s[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",s[i]);
+    for(int k=0;k<n;k++){
+        scanf("%d",s[k]);
     }
     min=s[0];
     max=s[0];
@@ -15,8 +15,8 @@ int main(){
         }
     }
     for(int j=0;j<n;j++){
-        if(s[i]>max){
-           max=s[i]; 
+        if(s[j]>max){
+           max=s[j]; 
         }
     }
     printf("%d %d",min,max);
