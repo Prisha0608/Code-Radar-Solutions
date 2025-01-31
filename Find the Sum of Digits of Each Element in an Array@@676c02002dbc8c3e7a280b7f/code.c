@@ -12,7 +12,7 @@ int main(){
         while(s[j]>0){
            e=s[j]%10;
            p=p+e;
-           s[j]/10;
+           s[j]/=10;
         }
         printf("%d ",p);
     }
