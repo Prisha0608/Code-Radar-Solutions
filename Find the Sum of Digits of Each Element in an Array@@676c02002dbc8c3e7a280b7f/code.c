@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(){
-    int n,e,s;
-    s=0;
+    int n,e,p;
+    p=0;
     scanf("%d",&n);
     int s[n];
     for(int i=0;i<n;i++){
@@ -11,10 +11,10 @@ int main(){
     for(int j=0;j<n;j++){
         while(s[i]>0){
            e=s[i]%10;
-           s=s+e;
+           p=p+e;
            s[i]/10;
         }
-        printf("%d ",s);
+        printf("%d ",p);
     }
     return 0;
 }
