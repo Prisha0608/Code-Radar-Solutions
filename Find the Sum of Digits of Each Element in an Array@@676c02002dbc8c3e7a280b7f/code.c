@@ -9,10 +9,10 @@ int main(){
         scanf("%d",&s[i]);
     }
     for(int j=0;j<n;j++){
-        while(s[i]>0){
-           e=s[i]%10;
+        while(s[j]>0){
+           e=s[j]%10;
            p=p+e;
-           s[i]/10;
+           s[j]/10;
         }
         printf("%d ",p);
     }
