@@ -10,7 +10,7 @@ int main(){
     }
     for(int j=0;j<n;j++){
         p=0;
-        if(s[i]==0){
+        if(s[j]==0){
             p=0;
         }else{
 
@@ -20,7 +20,7 @@ int main(){
            p=p+e;
            s[j]/=10;
         }}
-        
+
         printf("%d ",p);
     }
     return 0;
