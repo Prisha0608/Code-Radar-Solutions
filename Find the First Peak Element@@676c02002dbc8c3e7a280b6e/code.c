@@ -11,9 +11,9 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d\n",&s[i]);
     }
-    for(int j=1;j<n;j++){
+    for(int j=1;j<=n;j++){
         if(s[j-1]>=s[j] ){
-            printf("%d",s[j]);
+            printf("%d",s[j-1]);
             return 0;
         }
     }
