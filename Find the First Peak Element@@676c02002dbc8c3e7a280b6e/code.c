@@ -12,8 +12,8 @@ int main(){
         scanf("%d\n",&s[i]);
     }
     for(int j=1;j<n-1;j++){
-        if(s[j-1]<s[j] && s[j+1]<s[j]){
-            printf("%d",s[j]);
+        if(s[j+1]>s[j])
+            printf("%d",s[j+1]);
             return 0;
         }
     }
