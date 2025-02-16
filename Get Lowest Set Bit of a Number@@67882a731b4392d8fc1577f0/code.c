@@ -9,7 +9,7 @@ int main(){
         i++;
     }
     for(int j=0;j<i;j++){
-        if(a[j]==0){
+        if(a[j]==1){
             printf("%d",j);
             break;
         }
