@@ -8,6 +8,7 @@ int main(){
         if(e==0){
             i++;
         }
+        n=n/2;
     }
     printf("%d",i);
 }
