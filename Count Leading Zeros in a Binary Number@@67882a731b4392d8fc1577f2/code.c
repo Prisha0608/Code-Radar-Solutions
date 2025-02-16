@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
-    int n,e,i,p;
+    int e,i,p;
+    unsigned int n;
     scanf("%d",&n);
     i=0;
     while(n>0){
