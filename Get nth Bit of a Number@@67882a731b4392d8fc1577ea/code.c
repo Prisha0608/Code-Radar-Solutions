@@ -4,7 +4,7 @@ int main(){
     scanf("%d %d",&a,&b);
     c=0;
     while(a>0){
-        e[i]=a%2;
+        e[c]=a%2;
         n=n/2;
         c++;
     }
