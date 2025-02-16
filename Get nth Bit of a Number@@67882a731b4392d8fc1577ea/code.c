@@ -5,7 +5,7 @@ int main(){
     c=0;
     while(a>0){
         e[c]=a%2;
-        n=n/2;
+        a=a/2;
         c++;
     }
     if(e[b]==1){
