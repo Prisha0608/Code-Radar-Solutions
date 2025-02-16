@@ -4,10 +4,7 @@ int main(){
     scanf("%d",&n);
     i=0;
     while(n>0){
-        e=n%2;
-        
-            i++;
-        
+        i++;
         n=n/2;
     }
     printf("%d",32-i);
