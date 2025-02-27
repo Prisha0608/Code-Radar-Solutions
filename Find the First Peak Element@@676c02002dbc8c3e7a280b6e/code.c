@@ -1,22 +1,21 @@
 #include <stdio.h>
 
 int main(){
-    int n;
+    int n,p;
     scanf("%d\n",&n);
     int s[n];
     if(n<3){
-        printf("-1");
+        printf(s[n-1]);
         return 0;
     }
-    for(int i=0;i<n;i++){
-        scanf("%d\n",&s[i]);
+    int p=s[0];
+    for(int i=1;i<n-1;i++){
+         if(s[i+1]<s[i]){
+            p=s[i];
+         }
+
     }
-    for(int j=1;j<n-1;j++){
-        if(s[j+1]>s[j]){
-            printf("%d",s[j+1]);
-            return 0;
-        }
-    }
-    printf("-1");
+
+    printf("%d",p);
     return 0;
 }
