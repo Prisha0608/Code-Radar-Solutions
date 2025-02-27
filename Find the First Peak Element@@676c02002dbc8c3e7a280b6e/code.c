@@ -5,7 +5,7 @@ int main(){
     scanf("%d\n",&n);
     int s[n];
     for(int j=0;j<n;j++){
-        scanf("%d",&s[j]);
+        scanf("%d\n",&s[j]);
     }
     if(n<3){
         printf("%d",s[n-1]);
@@ -15,6 +15,7 @@ int main(){
     for(int i=0;i<n-1;i++){
          if(s[i+1]<s[i]){
             p=s[i];
+            break;
          }
 
     }
