@@ -9,7 +9,7 @@ int main(){
         return 0;
     }
      p=0;
-    for(int i=1;i<n-1;i++){
+    for(int i=0;i<n-1;i++){
          if(s[i+1]<s[i]){
             p=s[i];
          }
