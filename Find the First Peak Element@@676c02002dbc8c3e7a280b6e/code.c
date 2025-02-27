@@ -5,7 +5,7 @@ int main(){
     scanf("%d\n",&n);
     int s[n];
     if(n<3){
-        printf(s[n-1]);
+        printf("%d",s[n-1]);
         return 0;
     }
     int p=s[0];
