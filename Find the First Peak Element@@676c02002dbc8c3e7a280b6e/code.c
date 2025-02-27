@@ -4,6 +4,9 @@ int main(){
     int n,p;
     scanf("%d\n",&n);
     int s[n];
+    for(int j=0;j<n;j++){
+        scanf("%d",&s[j]);
+    }
     if(n<3){
         printf("%d",s[n-1]);
         return 0;
