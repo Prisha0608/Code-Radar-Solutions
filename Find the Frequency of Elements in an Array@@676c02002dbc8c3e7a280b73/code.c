@@ -7,7 +7,7 @@ int main(){
         scanf("%d",&s[i]);
     }
     for(int l=0;l<n;l++){
-        k=0;
+        k=1;
         for(int j=l+1;j<n;j++){
             if(s[l]==s[j]){
                 k++;
