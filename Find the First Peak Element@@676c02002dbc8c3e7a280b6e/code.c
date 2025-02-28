@@ -20,6 +20,10 @@ int main(){
 
     }
 
-    printf("%d",p);
+    if(p>0){
+        printf("%d",p);
+    }else{
+        printf("-1");
+    }
     return 0;
 }
