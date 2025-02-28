@@ -13,6 +13,6 @@ int main(){
                 k++;
             }
         }
-        printf("%d %d\n",l,k);
+        printf("%d %d\n",s[l],k);
     }
 }
