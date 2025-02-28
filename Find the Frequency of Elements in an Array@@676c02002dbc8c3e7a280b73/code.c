@@ -6,13 +6,13 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d ",&s[i]);
     }
-    for(int i=0;i<n;i++){
+    for(int l=0;l<n;l++){
         k=0;
-        for(int j=i+1;j<n;j++){
-            if(s[i]==s[j]){
+        for(int j=l+1;j<n;j++){
+            if(s[l]==s[j]){
                 k++;
             }
         }
-        printf("%d %d",i,k);
+        printf("%d %d",l,k);
     }
 }
