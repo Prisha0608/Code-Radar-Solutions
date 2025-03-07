@@ -23,5 +23,5 @@ int main(){
             return 0;
         }
     }
-    printf("%d",s[n]+1);
+    printf("%d",s[n-1]+1);
 }
