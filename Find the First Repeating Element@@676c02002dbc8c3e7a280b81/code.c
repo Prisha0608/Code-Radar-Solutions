@@ -7,7 +7,7 @@ int main(){
         scanf("%d",&s[i]);
     }
     for(int k=0;k<n;k++){
-        for(int j=1;j<n-i;j++){
+        for(int j=1;j<n-k;j++){
             if(arr[j]<arr[j-1]){
                 int temp=arr[j];
                 arr[j]=arr[j-1];
@@ -18,7 +18,7 @@ int main(){
     for(int p=0;p<n-1;p++){
         if(s[p]==s[p+1]){
             printf("%d",s[p]);
-            return;
+            return 0;
         }
     }
     printf("-1");
