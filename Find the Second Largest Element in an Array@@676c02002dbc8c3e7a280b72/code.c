@@ -15,5 +15,9 @@ int main(){
             }
         }
     }
+    if((s[n-2]==s[n-1] && s[n-2]==s[n-3]) || n<2){
+        printf("-1");
+    }else{
     printf("%d",s[n-2]);
+    }
 }
