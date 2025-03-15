@@ -7,7 +7,11 @@ int main(){
     int s[n];
     for(int i=0;i<n;i++){
         scanf("%d",&s[i]);
+        if(s[i]<0){
+            s[i]=s[i]*(-1);
+        }
     }
+    
     for(int j=0;j<n;j++){
         p=0;
         if(s[j]==0){
