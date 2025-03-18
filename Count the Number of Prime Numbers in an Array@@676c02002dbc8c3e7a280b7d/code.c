@@ -9,7 +9,7 @@ int main(){
     p=0;
     for(int j=0;j<n;j++){
         int flag=1;
-        if(s[j]<1){
+        if(s[j]==1 || s[j]==0){
             continue;
         }
         for(int k=2;k<s[j];k++){
