@@ -10,7 +10,7 @@ int main(){
     for(int j=0;j<n;j++){
         int flag=1;
         for(int k=2;k<s[j];k++){
-            if(s[j]%k==0){
+            if(s[j]%k==0 || s[j]==1 || s[j]==0){
                 flag=0;
                 break;
             }
