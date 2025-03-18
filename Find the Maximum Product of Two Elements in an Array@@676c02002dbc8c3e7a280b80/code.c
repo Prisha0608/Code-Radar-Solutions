@@ -11,7 +11,7 @@ int main(){
     max_p=s[0]*s[1];
     for(int j=0;j<n;j++){
         for(int k=j+1;k<n;k++){
-            p=s[i]*s[j];
+            p=s[j]*s[k];
             if(p>max_p){
                 max_p=p;
             }
