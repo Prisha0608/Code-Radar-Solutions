@@ -15,10 +15,8 @@ int main(){
                 break;
             }
         }
-        if(flag==1 && s[j]>1){
+        if(flag==1 ){
             p++;
-        }else{
-            p--;
         }
     }
     printf("%d",p);
