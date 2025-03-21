@@ -15,6 +15,7 @@ int main(){
         }
         if(p>=l){
             printf("%d",s[i]);
+            return 0;
         }
     }
     printf("-1");
