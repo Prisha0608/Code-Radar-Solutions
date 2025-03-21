@@ -6,7 +6,7 @@ int main(){
     l=n/2;
     int s[n];
     for(int m=0;m<n;m++){
-        scanf("%d",s[m]);
+        scanf("%d ",&s[m]);
     }
     for(int i=0;i<n-1;i++){
         p=1;
