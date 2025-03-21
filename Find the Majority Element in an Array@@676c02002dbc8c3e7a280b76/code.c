@@ -9,12 +9,12 @@ int main(){
         for(int j=i+1;j<n;j++){
             if(s[i]==s[j]){
                 p++;
-                if(p>l){
-                    printf("%d",s[i]);
-                    return 0;
-                }
+                
                 
             }
+        }
+        if(p>=l){
+            printf("%d",s[i]);
         }
     }
     printf("-1");
