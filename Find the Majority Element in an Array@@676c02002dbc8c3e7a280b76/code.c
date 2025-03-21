@@ -11,6 +11,7 @@ int main(){
                 p++;
                 if(p>l){
                     printf("%d",s[i]);
+                    return 0;
                 }
                 
             }
