@@ -12,7 +12,7 @@ int main(){
         }printf("\n");
     }
     for(int i=a-2;i>=0;i--){
-        for(int j=i;j<=a-2;j++){
+        for(int j=0;j<=a-i-2;j++){
             printf(" ");
         }
         for(int j=i;j<=i*3;j++){
