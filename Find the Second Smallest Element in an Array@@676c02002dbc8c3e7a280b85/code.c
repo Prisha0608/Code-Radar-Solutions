@@ -10,7 +10,7 @@ int main(){
     if(n<2){
         printf("-1");
     }
-    for(inr i=0;i<n;i++){
+    for(int i=0;i<n;i++){
         if(s[i]<smallest){
             s_s=smallest;
             smallest=s[i];
