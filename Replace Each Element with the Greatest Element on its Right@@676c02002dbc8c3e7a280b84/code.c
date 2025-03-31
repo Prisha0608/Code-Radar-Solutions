@@ -17,4 +17,7 @@ int main(){
 
     }
     s[n-1]=-1;
+    for(int k=0;k<n;k++){
+        printf("%d ",s[k]);
+    }
 }
