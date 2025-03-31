@@ -1,15 +1,22 @@
 #include<stdio.h>
 int main(){
-    int n;
+    int n,smallest,s_s;
     scanf("%d",&n);
     int s[n];
     for(int i=0;i<n;i++){
         scanf("%d",&s[i]);
     }
-    int smallest=s[0],s_s=-1;
+    
     if(n<2){
         printf("-1");
         return 0;
+    }
+    if (s[0] < s[1]) {
+        smallest = s[0];
+        s_s = s[1];
+    } else {
+        smallest = s[1];
+        s_s = s[0];
     }
     for(int i=0;i<n;i++){
         if(s[i]<smallest){
