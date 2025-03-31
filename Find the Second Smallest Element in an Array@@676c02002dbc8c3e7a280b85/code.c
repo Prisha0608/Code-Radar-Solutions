@@ -9,6 +9,7 @@ int main(){
     int smallest=s[0],s_s=-1;
     if(n<2){
         printf("-1");
+        return 0;
     }
     for(int i=0;i<n;i++){
         if(s[i]<smallest){
