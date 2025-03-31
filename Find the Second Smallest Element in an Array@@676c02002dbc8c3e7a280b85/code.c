@@ -26,9 +26,7 @@ int main(){
             s_s=s[i];
         }
     }
-    if(s_s==-1){
-        printf("-1");
-    }else{
+    
         printf("%d",s_s);
-    }
+    
 }
