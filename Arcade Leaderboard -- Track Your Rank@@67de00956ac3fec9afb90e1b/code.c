@@ -22,7 +22,7 @@ int trackPlayerRanks(int ranked[],int n,int players[],int m,int result[]){
             
         }
         if(flag==0){
-        result[l]=m;
+        result[l]=n;
         l++;}
     }
 }
