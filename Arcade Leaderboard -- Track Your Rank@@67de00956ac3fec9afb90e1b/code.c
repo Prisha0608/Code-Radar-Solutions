@@ -8,7 +8,7 @@ int trackPlayerRanks(int ranked[],int n,int players[],int m,int result[]){
             result[s]=ranked[i];
             s++;
         }
-    }
+    }}
 //     int l=0;
 //     int flag=0;
 //     for(int j=0;j<m;j++){
