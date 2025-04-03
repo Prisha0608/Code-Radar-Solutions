@@ -5,6 +5,8 @@ void deflateBalloons(int air[],int n){
         for(int i=0;i<n;i++){
           if(air[i]>0 && air[i]<min){
             min=air[i];
+          }else if(air[i]==0){
+            n=n-1;
           }
         }
         int count=0;
