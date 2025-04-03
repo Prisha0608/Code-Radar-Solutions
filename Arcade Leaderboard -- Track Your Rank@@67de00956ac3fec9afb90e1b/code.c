@@ -17,8 +17,9 @@ int trackPlayerRanks(int ranked[],int n,int players[],int m,int result[]){
                 l++;
                 break;
             }
-            result[l]=m;
-            l++;
+            
         }
+        result[l]=m;
+        l++;
     }
 }
