@@ -3,7 +3,7 @@ void deflateBalloons(int air[],int n){
     while(n>0){
         int min=__INT_MAX__;
         for(int i=0;i<n;i++){
-          if(air[i]>0 && air[i]<min){
+          if(air[i]!=-1 && air[i]<min){
             min=air[i];
           }
         }
