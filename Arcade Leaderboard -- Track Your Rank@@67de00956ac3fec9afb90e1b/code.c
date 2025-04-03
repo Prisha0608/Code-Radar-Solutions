@@ -19,6 +19,11 @@ int trackPlayerRanks(int ranked[],int n,int players[],int m,int result[]){
                 l++;
                 flag=1;
                 break;
+            }else if(p[k]==players[j]){
+                result[l]=k+1;
+                l++;
+                flag=1;
+                break;
             }
             
         }
