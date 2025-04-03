@@ -1,5 +1,5 @@
 void deflateBalloons(int air[],int n){
-    printf("%d ",n);
+    printf("%d\n",n);
     while(n>0){
         int min=air[0];
         for(int i=0;i<n;i++){
@@ -15,6 +15,6 @@ void deflateBalloons(int air[],int n){
             }
         }
         n=n-count;
-        printf("%d ",n);
+        printf("%d\n",n);
     }
 }
