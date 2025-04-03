@@ -13,7 +13,7 @@ int trackPlayerRanks(int ranked[],int n,int players[],int m,int result[]){
     for(int j=0;j<m;j++){
         for(int k=0;k<s;k++){
             if(p[k]<players[j]){
-                result[l]=k;
+                result[l]=k+1;
                 l++;
                 continue;
             }
