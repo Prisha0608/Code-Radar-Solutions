@@ -17,7 +17,7 @@ void deflateBalloons(int air[],int n){
             }
         }
         
-        n=n-count;
+        n-=count;
         if(n>0){
             printf("%d\n",n);
         }
