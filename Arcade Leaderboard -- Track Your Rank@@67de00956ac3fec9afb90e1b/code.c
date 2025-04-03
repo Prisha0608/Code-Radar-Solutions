@@ -1,4 +1,4 @@
-int trackPlayerRanks(int ranked[],int n,int players[],int m){
+int trackPlayerRanks(int ranked[],int n,int players[],int m,int result[]){
     int p[100];
     int s=0;
     for(int i=0;i<n;i++){
@@ -9,10 +9,12 @@ int trackPlayerRanks(int ranked[],int n,int players[],int m){
             s++;
         }
     }
+    int l=0;
     for(int j=0;j<m;j++){
         for(int k=0;k<s;k++){
             if(p[k]<players[j]){
-                return k;
+                result[l]=k;
+                l++;
                 continue;
             }
         }
