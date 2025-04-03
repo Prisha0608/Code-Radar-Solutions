@@ -7,17 +7,17 @@ void deflateBalloons(int air[],int n){
             min=air[i];
           }
         }
-        int count=1;
+        int count=0;
         for(int j=0;j<n;j++){
             if(min==air[j]){
                 count++;
                 air[j]=-1;
             }
         }
-        printf("%d\n",count);
+        
         n=n-count;
-        // if(n>0){
-        //     printf("%d\n",n);
-        // }
+        if(n>0){
+            printf("%d\n",n);
+        }
     }
 }
