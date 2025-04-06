@@ -1,5 +1,5 @@
 int kthSmallest(int arr[],int n,int k){
-    if(k>n-1 || k<0){
+    if(k>n || k<0){
         return -1;
     }
     for(int i=0;i<n-1;i++){
