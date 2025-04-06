@@ -11,7 +11,7 @@ int totalLikes(int n){
     for(int i=1;i<=n;i++){
         d=floor(t/2);
         m+=d;
-        t=m*3;
+        t=d*3;
     }
     return m;
 }
