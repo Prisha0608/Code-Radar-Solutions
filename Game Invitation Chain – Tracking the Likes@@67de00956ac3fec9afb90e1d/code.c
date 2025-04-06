@@ -6,12 +6,12 @@ int totalLikes(int n){
     if(n==1){
         return floor(t/2);
     }else if(n==0){
-        return 5;
+        return 0;
     }
-    for(int i=1;i<n;i++){
+    for(int i=1;i<=n;i++){
         d=floor(t/2);
-        m=d*3;
-        t=m;
+        m+=d;
+        t=m*3;
     }
     return m;
 }
