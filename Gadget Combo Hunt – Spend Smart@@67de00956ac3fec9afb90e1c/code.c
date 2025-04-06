@@ -13,6 +13,6 @@ int maxGadgetSpend(int keyboards[],int n,int headsets[],int m,int budget){
    if(!flag){
     return -1;
    }else{
-    return sum;
+    return max;
    }
 }
