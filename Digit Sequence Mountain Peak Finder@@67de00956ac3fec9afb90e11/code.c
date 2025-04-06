@@ -16,5 +16,9 @@ int mountainPeak(int n){
             end=mid;
         }
     }
-    return s[start];
+    if(s[start]>s[start-1] && s[start]>s[start+1]){
+        return s[start];
+    }else{
+        return -1;
+    }
 }
