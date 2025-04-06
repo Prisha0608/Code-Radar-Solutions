@@ -1,0 +1,3 @@
+int findPrankReceiver(int n,int m,int s){
+    return m+s-1;
+}
