@@ -6,6 +6,9 @@ int mountainPeak(int n){
         n/=10;
         p++;
     }
+    if(p<3){
+        return -1;
+    }
     int start=0;
     int end=p-1;
     while(start<end){
@@ -16,7 +19,7 @@ int mountainPeak(int n){
             end=mid;
         }
     }
-    if(s[start]>s[start-1] && s[start]>s[start+1]){
+    if(s[start]>s[start-1] && s[start]>s[start+1] && start!=0 && start!=p-1){
         return s[start];
     }else{
         return -1;
